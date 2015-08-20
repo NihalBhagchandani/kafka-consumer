@@ -1,0 +1,19 @@
+<configuration>
+<property>
+  <name>hive.metastore.warehouse.dir</name>
+  <value>/user/hive/warehouse</value>
+  <description>location of default database for the warehouse</description>
+</property>
+<property>
+  <name>hadoop.embedded.local.mode</name>
+  <value>false</value>
+</property>
+<property>
+  <name>fs.default.name</name>
+  <value>hdfs://localhost:54310</value>
+</property>
+<property>
+  <name>mapred.job.tracker</name>
+  <value>localhost:54311</value>
+</property>
+</configuration>
